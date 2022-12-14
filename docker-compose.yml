@@ -1,0 +1,8 @@
+version: '3.7'
+services:
+ ecr20_contract:
+   build:
+    context: .
+    dockerfile: Dockerfile
+   ports:
+    - 8090:8080
