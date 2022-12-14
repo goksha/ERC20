@@ -1,12 +1,18 @@
 # blockchain
 To install the containerized application docker pull command can be used.
+<br/><br/>
 docker pull shagok/x21226661:ecr20
-
+<br/><br/>
 if you are planning to compile on your own please follow below steps
+<br/><br/>
 Step1: 
+<br/><br/>
 create a python virtual environment and install the requirements from requirements.txt
+<br/><br/>
 Note: please use python 3.9.2 version
+<br/><br/>
 Step2:
+<br/><br/>
 .env file should be created with the contents as mentioned in env-example.txt as we are making use of python decouple
 Step3:
 run webserver.py 
