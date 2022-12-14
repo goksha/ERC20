@@ -41,8 +41,8 @@ Once the Docker Container is runing --->
 <br/><br/>
 To transfer the token the below mentioned command can be used --->
 <br/><br/>
-curl --header "Content-Type: application/json" --request POST --data '{"address":"<recievers ETH Address >"}' http://localhost:8090/token
+curl --header "Content-Type: application/json" --request POST --data '{"address":"recievers ETH Address "}' http://localhost:8090/token
 <br/><br/>
 To transfer the ETH the below mentioned command can be used --->
 <br/><br/>
-curl --header "Content-Type: application/json" --request POST --data '{"address":"<recievers ETH Address >","amount":"0.05"}' http://localhost:8090/eth
+curl --header "Content-Type: application/json" --request POST --data '{"address":"recievers ETH Address ","amount":"0.05"}' http://localhost:8090/eth
